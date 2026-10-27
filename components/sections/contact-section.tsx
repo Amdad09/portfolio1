@@ -53,6 +53,15 @@ export function ContactSection() {
                                 <Linkedin className="h-4 w-4" aria-hidden />
                                 LinkedIn
                             </a>
+                            <a
+                                href={profile.youtube}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-5 py-2.5 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary"
+                            >
+                                <Linkedin className="h-4 w-4" aria-hidden />
+                                YouTube
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -9,12 +9,13 @@ export const profile = {
     shortBio:
         "I build interfaces with React, Next.js, and TypeScript, and I'm steadily building backend skills with Node.js, Express, and MongoDB. I care about clean code, solid fundamentals, and projects that actually work.",
     // [REPLACE] — use a real email you monitor
-    email: 'hello@example.com', // [REPLACE]
+    email: 'amdadulhaque601671@gmail.com', // [REPLACE]
     // [REPLACE] — real GitHub profile URL
-    github: 'https://github.com/your-username', // [REPLACE]
+    github: 'https://github.com/Amdad09', // [REPLACE]
     // [REPLACE] — real LinkedIn profile URL
-    linkedin: 'https://www.linkedin.com/in/your-username', // [REPLACE]
+    linkedin: 'https://www.linkedin.com/in/Amdad09', // [REPLACE]
     // Leave null until a real resume PDF exists in /public
+    youtube: 'https://www.youtube.com/@amdadul_09',
     resumePath: null as string | null, // e.g. "/amdadul-haque-resume.pdf"
     availability: 'Open to frontend roles and full-stack opportunities',
     tagline: 'Building reliable software, one honest project at a time.',
@@ -80,7 +81,7 @@ export type Project = {
 export const projects: Project[] = [
     {
         slug: 'project-one',
-        name: 'Project One — RESTful CRUD API', // [REPLACE]
+        name: 'Bazar-dor — RESTful CRUD API', // [REPLACE]
         summary:
             'A REST API with create, read, update, and delete endpoints, built to practice routing, validation, and MongoDB integration.',
         description:
@@ -95,14 +96,14 @@ export const projects: Project[] = [
             'Keeping route handlers small and readable while validation and error handling grew across endpoints.',
         approach:
             "Extracted shared validation and error-handling middleware, kept controllers thin, and documented each endpoint's contract.",
-        repoUrl: null, // [REPLACE] real repo URL
-        liveUrl: null, // [REPLACE] real demo URL or leave null
-        image: null,
+        repoUrl: 'https://github.com/Amdad09/bazar-dor', // [REPLACE] real repo URL
+        liveUrl: 'https://bazar-dor-web-gamma.vercel.app', // [REPLACE] real demo URL or leave null
+        image: 'https://images.unsplash.com/photo-1611693424421-3db00de93a89',
         isPlaceholder: true,
     },
     {
         slug: 'project-two',
-        name: 'Project Two — Auth Application', // [REPLACE]
+        name: 'My Newspaper — Auth Application', // [REPLACE]
         summary:
             'An authentication flow with registration, login, protected routes, and session handling.',
         description:
@@ -123,9 +124,9 @@ export const projects: Project[] = [
             'Coordinating client-side route protection with server-side authorization without duplicating logic.',
         approach:
             'Centralized auth checks in middleware, kept the client aware only of session state, and enforced authorization at the API boundary.',
-        repoUrl: null,
-        liveUrl: null,
-        image: null,
+        repoUrl: 'https://github.com/Amdad09/my-newspaper',
+        liveUrl: 'https://my-newspaper-pu6i.vercel.app',
+        image: 'https://images.unsplash.com/photo-1689421755395-c18b8cd24db3',
         isPlaceholder: true,
     },
     {
@@ -145,9 +146,9 @@ export const projects: Project[] = [
             'Building a table that stayed usable on small screens without hiding essential data.',
         approach:
             'Designed a mobile card view as a first-class layout rather than a fallback, and reused the same data hooks across both views.',
-        repoUrl: null,
-        liveUrl: null,
-        image: null,
+        repoUrl: 'https://github.com/Amdad09/fit-log',
+        liveUrl: 'https://fit-log-ruby.vercel.app/',
+        image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?',
         isPlaceholder: true,
     },
 ];
