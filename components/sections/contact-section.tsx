@@ -1,6 +1,7 @@
 import { Mail } from 'lucide-react';
 import { profile } from '@/lib/data/portfolio';
 import { Github, Linkedin } from '../icons/brand-icons';
+import { BsYoutube } from 'react-icons/bs';
 export function ContactSection() {
     return (
         <section
@@ -59,7 +60,7 @@ export function ContactSection() {
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-5 py-2.5 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary"
                             >
-                                <Linkedin className="h-4 w-4" aria-hidden />
+                                <BsYoutube className="h-4 w-4" aria-hidden />
                                 YouTube
                             </a>
                         </div>

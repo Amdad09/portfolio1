@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, FileUser } from 'lucide-react';
 import { profile } from '@/lib/data/portfolio';
 import { Github, Linkedin } from '../icons/brand-icons';
 export function HeroSection() {
@@ -70,6 +70,16 @@ export function HeroSection() {
                         >
                             <Linkedin className="h-4 w-4" aria-hidden />{' '}
                             LinkedIn
+                        </a>
+                        <span className="h-3 w-px bg-border" aria-hidden />
+                        <a
+                            href={profile.resume}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn profile"
+                            className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-foreground"
+                        >
+                            <FileUser className="h-4 w-4" aria-hidden /> Resume
                         </a>
                     </div>
                 </div>

@@ -16,6 +16,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/Amdad09', // [REPLACE]
     // Leave null until a real resume PDF exists in /public
     youtube: 'https://www.youtube.com/@amdadul_09',
+    resume: 'https://drive.google.com/file/d/1IkkIBHNScIUH_m9rCuZ5cf-8gK0GdiHS/view?usp=sharing',
     resumePath: null as string | null, // e.g. "/amdadul-haque-resume.pdf"
     availability: 'Open to frontend roles and full-stack opportunities',
     tagline: 'Building reliable software, one honest project at a time.',
